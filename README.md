@@ -23,3 +23,7 @@ Locate where it says **load unpacked** and click on it. This will allow you to s
 
 #### Step 5
 If there are no errors and everything loads successfully, when prompted, click the **OK** to install Moody successfully into your browser.
+
+
+## NOTE:
+Another easier way of inatalling Moody to your web broswer is simply by locating **Extensions**, clicking on that and following the rest of the steps
