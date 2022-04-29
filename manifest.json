@@ -1,0 +1,13 @@
+{
+  "name": "Moody",
+  "description": "Filtering your home page based on your mood.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "Susmita Dey, Akebu Simasiku, Vandana Vaswani",
+  "browser_action": {
+    "default_icon": "moody_logo.png",
+    "default_title": "Have a good day"
+  },
+  "chrome_url_overrides": { "newtab": "index.html" },
+  "permissions": ["activeTab"]
+}
