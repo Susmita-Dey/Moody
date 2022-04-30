@@ -5,9 +5,12 @@
   "manifest_version": 3,
   "author": "Susmita Dey, Akebu Simasiku, Vandana Vaswani",
   "browser_action": {
-    "default_icon": "moody_logo.png",
+    "16": "moody_logo.png",
+    "24": "moody_logo.png",
+    "32": "moody_logo.png",
     "default_title": "Have a good day"
   },
   "chrome_url_overrides": { "newtab": "index.html" },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab"],
+  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com; object-src 'self';"
 }

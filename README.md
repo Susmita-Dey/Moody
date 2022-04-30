@@ -12,7 +12,7 @@ Open your broswer, this can be whichever browser you use the most, open **Settin
 ![settings](https://user-images.githubusercontent.com/74776297/166063147-17eca9b6-c446-4c0c-856b-8c948826bc4d.png)
 
 #### Step 3
-Locate the **Extensions** and click on them and find where it says **Manage Extensions**
+Locate the **Extensions** and click on them and find where it says **Manage Extensions** and ensure that **Developer Mode** is ticked
 
 ![extensions](https://user-images.githubusercontent.com/74776297/166063436-b2c05d79-960f-43e8-ae99-3c246269ac62.png)
 
