@@ -1,16 +1,16 @@
 # Moody
 This is a chrome extension that will help you filter your home page of your Chrome Browser according to your mood.
 
-## Download the extension from [here]().
+<!-- ## Download the extension from [here](). -->
 
-## Check out the [YT video]() explaning the project.
+## Check out the [YT video](https://youtu.be/jSUDUitqoOI) explaning the project.
 
 ## Check out the [Figma design file](https://www.figma.com/file/HthSH20cAg6WXbjLOW8af9/Moody---Chrome-Extension?node-id=0%3A1) used for making the UI/UX design of our extension
 
 ## How to Locally Install Moody to your Browser
 
 ### Step 1
-Clone this repositoiry and place Moody in a location that will be easy for you to find, ensuring that you remember exactly where you stored it as this will be needed later during the installation process. This process can be used to install any other broswer extensions you have saved locally.
+Clone this repository and place Moody in a location that will be easy for you to find, ensuring that you remember exactly where you stored it as this will be needed later during the installation process. This process can be used to install any other broswer extensions you have saved locally.
 
 ### Step 2
 Open your browser, this can be whichever browser you use the most, open **Settings**
