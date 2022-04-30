@@ -5,7 +5,7 @@ This is a chrome extension that will help you filter your home page of your Chro
 
 ## Check out the [YT video]() explaning the project.
 
-## Check out the [Figma design file]() used for making the UI/UX design of our extension
+## Check out the [Figma design file](https://www.figma.com/file/HthSH20cAg6WXbjLOW8af9/Moody---Chrome-Extension?node-id=0%3A1) used for making the UI/UX design of our extension
 
 ## How to Locally Install Moody to your Browser
 
