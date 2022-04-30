@@ -42,6 +42,7 @@ Another easier way of installing Moody to your web broswer is simply by locating
 
 3. Select this one and open it up.
 4. Click on the `Add to Chrome` button.
+
 ![button](https://user-images.githubusercontent.com/79099734/166102891-9b802875-f49f-44ca-8164-4eaa64a918d3.png)
 
 And you're all set! 🙌
