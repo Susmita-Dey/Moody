@@ -34,7 +34,7 @@ If there are no errors and everything loads successfully, when prompted, click t
 ## NOTE:
 Another easier way of installing Moody to your web broswer is simply by locating **Extensions**, clicking on that and following the rest of the steps
 
-## For Chrome Users
+<!-- ## For Chrome Users
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions?hl=en-US).
 2. Search for Moody in the Search Bar. 
 
@@ -44,7 +44,7 @@ Another easier way of installing Moody to your web broswer is simply by locating
 4. Click on the `Add to Chrome` button.
 
 ![button](https://user-images.githubusercontent.com/79099734/166102891-9b802875-f49f-44ca-8164-4eaa64a918d3.png)
-
+ -->
 And you're all set! 🙌
 <hr>
 <p align="center">
