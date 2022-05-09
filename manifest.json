@@ -11,6 +11,5 @@
     "default_title": "Have a good day"
   },
   "chrome_url_overrides": { "newtab": "index.html" },
-  "permissions": ["activeTab"],
-  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com; object-src 'self';"
+  "permissions": ["activeTab"]
 }
