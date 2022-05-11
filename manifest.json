@@ -4,9 +4,6 @@
   "version": "1.0",
   "manifest_version": 3,
   "author": "Susmita Dey, Akebu Simasiku, Vandana Vaswani",
-  "action": {
-    "default_popup": "./happy.html"
-  },
   "browser_action": {
     "16": "moody_logo.png",
     "24": "moody_logo.png",
