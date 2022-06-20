@@ -34,11 +34,11 @@ Another easier way of inatalling Moody to your web broswer is simply by locating
 
 <!-- ## Download the extension from [here](). -->
 
-## Check out the [YT video](https://youtu.be/jSUDUitqoOI) explaning the project.
+#### Check out the [YT video](https://youtu.be/jSUDUitqoOI) explaning the project.
 
-## Check out the [Figma design file](https://www.figma.com/file/HthSH20cAg6WXbjLOW8af9/Moody---Chrome-Extension?node-id=0%3A1) used for making the UI/UX design of our extension
+#### Check out the [Figma design file](https://www.figma.com/file/HthSH20cAg6WXbjLOW8af9/Moody---Chrome-Extension?node-id=0%3A1) used for making the UI/UX design of our extension
 
-## 📸 Screenshot
+#### 📸 Screenshot
 ![Moody](https://user-images.githubusercontent.com/79099734/166107497-5a991619-d445-4d5c-b10e-05c6ce8949ee.PNG)
 
 
