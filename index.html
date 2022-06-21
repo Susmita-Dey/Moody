@@ -4,96 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Required meta tags -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Moody</title>
-    <!-- Bootstrap CSS v5.0.2 -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
   </head>
-  <body class="bg-primary bg-opacity-50">
-    <h2 class="text-white text-center mt-5">What are you currently feeling?</h2>
-  
-      <div class="grid container mt-5">
-        <div class="row text-center">
-          <div class="col card bg-info bg-gradient" style="width: 18rem">
-            <img
-              src="assets/svg-icons/emoji-laughing.svg"
-              class="card-img-top p-2"
-              alt="emoji-laughing"
-            />
-            <div class="card-body">
-              <a href="/pages/happy.html"
-                ><p class="card-text text-decoration-none" role="button">
+  <body class="bg-blue-500">
+    <section class="text-white body-font">
+      <h2 class="text-center mt-10 text-3xl text-bold">
+        What are you currently feeling?
+      </h2>
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
+              <img
+                class="bg-green-500 lg:h-48 md:h-36 w-full object-contain object-center"
+                src="assets/emojis/emoji-laughing.svg"
+                alt="happy"
+              />
+              <div class="p-6">
+                <h1 class="text-center title-font text-lg font-medium text-gray-900 mb-3">
                   Happy
-                </p></a>
+                </h1>
+              </div>
             </div>
           </div>
-
-          <div class="col card bg-danger bg-gradient" style="width: 18rem">
-            <img
-              src="assets/svg-icons/emoji-angry.svg"
-              class="card-img-top p-2"
-              alt="emoji-angry"/>
-            <div class="card-body">
-              <a href="/pages/angry.html">
-                <p class="card-text text-decoration-none" role="button">
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
+              <img
+                class="bg-red-500 lg:h-48 md:h-36 w-full object-contain object-center"
+                src="assets/emojis/emoji-angry.svg"
+                alt="angry"
+              />
+              <div class="p-6">
+                <h1 class="text-center title-font text-lg font-medium text-gray-900 mb-3">
                   Angry
-                </p></a>
+                </h1>
+              </div>
             </div>
           </div>
-
-          <div class="col card bg-warning bg-opacity-75" style="width: 18rem">
-            <img
-              src="assets/svg-icons/emoji-frown.svg"
-              class="card-img-top p-2"
-              alt="emoji-sad"
-            />
-            <div class="card-body">
-              <a href="/pages/sad.html"
-                ><p class="card-text text-decoration-none" role="button">
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
+              <img
+                class="bg-yellow-500 lg:h-48 md:h-36 w-full object-contain object-center"
+                src="assets/emojis/emoji-frown.svg"
+                alt="sad"
+              />
+              <div class="p-6">
+                <h1 class="text-center title-font text-lg font-medium text-gray-900 mb-3">
                   Sad
-                </p></a>
-            </div>
-          </div>
-
-          <div class="col card bg-warning bg-opacity-75" style="width: 18rem">
-            <img
-              src="assets/svg-icons/emoji-frown.svg"
-              class="card-img-top p-2"
-              alt="emoji-sad"
-            />
-            <div class="card-body">
-              <a href="/pages/fear.html"
-                ><p class="card-text text-decoration-none" role="button">
-                  Afraid
-                </p></a>
+                </h1>
+              </div>
             </div>
           </div>
         </div>
       </div>
-  
-    
-    <script src="/scripts/app.js"></script>
+    </section>
 
-    <!-- Bootstrap JavaScript Libraries -->
-     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script> 
-    <script src="/scripts/contentScript.js"></script>
+    <!-- My JS -->
+    <script src="/js/app.js"></script>
+    <script src="/js/contentScript.js"></script>
   </body>
 </html>
