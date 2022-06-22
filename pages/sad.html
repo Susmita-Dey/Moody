@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Moody</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <h1>Don't be sad, we're here for you.</h1>
-  </body>
+
+<head>
+  <title>Moody</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @layer base {
+      .card {
+        width: 80%;
+        max-width: 700px;
+      }
+
+      .card-body {
+        padding: 40px;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+  <script src="../js/sadQuotes.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-purple-500 ">
+  <section class="body-font">
+    <div class="container px-16 py-8 mx-auto">
+      <div class="flex flex-wrap flex-col m-4">
+        <div class="flex flex-wrap flex-col">
+          <h2 class="text-center mt-10 text-3xl font-bold font-['Pacifico']">Hey, there 👋 Are You Sad? Don't be sad;
+            because we're here for you.</h2>
+          <h3 class="text-center mt-10 text-lg font-medium font-['Arvo']">A Quote for You 😊</h3>
+        </div>
+        <div
+          class="md:mx-12 lg:mx-48 lg:mt-24 md:mt-16 text-white justify-center items-center card w-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0 font-['Arvo']">
+              <p>loading...</p>
+              <footer class="blockquote-footer my-4 font-bold">
+                - <cite title="Source Title"></cite>
+              </footer>
+            </blockquote>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button font-['Pacifico']"
+              data-size="large" data-text="Thank You for this awesome gift 🎁" data-via="its_SusmitaDey, @akebu6"
+              data-hashtags="Moody" data-show-count="false">Tweet</a>
+          </div>
+          <div class="card-footer">
+            <button class="bg-blue-500 p-4 w-full rounded text-white font-['Pacifico']">New Quote</button>
+          </div>
+        </div>
+        <p class="text-center mt-6 text-lg font-normal font-['Arvo']">Have a good day</p>
+      </div>
+    </div>
+  </section>
+  </section>
+</body>
+
 </html>
