@@ -56,6 +56,6 @@ Another easier way of inatalling Moody to your web broswer is simply by locating
 And you're all set! 🙌
 <hr>
 <p align="center">
-  Show some ❤ by starring the repository.
+  Show some :heart: by starring the repository.
 </p>
 <!-- >>>>>>> 60817596411cf9b67a72eabd227a42e33f1a5e17 -->
