@@ -56,6 +56,20 @@ Another easier way of installing Moody to your web broswer is simply by locating
 And you're all set! 
  -->
 <hr>
+
+## Open Source Programs
+ <a href="https://hacktoberfest.com/">
+ <img width="1200" alt="Email Banners-Dark" src="https://user-images.githubusercontent.com/79099734/189589410-ca17afb8-5855-4316-918a-054f27594809.png">
+ </a>
+
+## 😎 Project Admin
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/Susmita-Dey"><img src="https://avatars.githubusercontent.com/u/79099734?v=4" width="100px;" alt=""/><br /><sub><b>Susmita Dey</b></sub></a></td>
+  </tr>
+</table>
+
 <p align="center">
   Show some :heart: by starring the repository.
 </p>
