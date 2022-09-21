@@ -1,4 +1,3 @@
-<!-- <<<<<<< HEAD -->
 # Moody
 This is a chrome extension that will help you filter the home page of your Browser according to your mood!
 
@@ -39,7 +38,7 @@ Another easier way of installing Moody to your web broswer is simply by locating
 #### Check out the [Figma design file](https://www.figma.com/file/HthSH20cAg6WXbjLOW8af9/Moody---Chrome-Extension?node-id=0%3A1) used for making the UI/UX design of our extension
 
 #### 📸 Screenshot
-![Moody](https://user-images.githubusercontent.com/79099734/166107497-5a991619-d445-4d5c-b10e-05c6ce8949ee.PNG)
+![Moody](https://user-images.githubusercontent.com/79099734/191542470-a779e564-2d7d-403e-ab5c-8acbd24b5558.png)
 
 
 <!-- ## For Chrome Users
