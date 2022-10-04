@@ -1,77 +1,87 @@
-# Moody
-This is a chrome extension that will help you filter the home page of your Browser according to your mood!
+<h1 align=center><a href="https://github.com/Susmita-Dey/Moody">Moody</a></h1>
+Moody is a Chrome extension that will help you filter your home page of your Chrome Browser according to your mood. It helps you to do your work according to your mood and also get back your mood to normal.
+ 
+<br />
+<br />
+
+[![Issues](https://img.shields.io/github/issues/Susmita-Dey/Moody)](https://github.com/Susmita-Dey/Moody/issues)
+[![License](https://img.shields.io/github/license/Susmita-Dey/Moody)](https://github.com/Susmita-Dey/Moody/blob/master/LICENSE)
+[![GitHub Stargazers for Drifty](https://img.shields.io/github/stars/Susmita-Dey/Moody?label=Leave%20a%20star&style=social)](https://github.com/Susmita-Dey/Moody/stargazers)
+[![GitHub Discussions](https://img.shields.io/github/discussions/Susmita-Dey/Moody)](https://github.com/Susmita-Dey/Moody/discussions)
+[![Follow](https://img.shields.io/twitter/follow/its_SusmitaDey?style=social)](https://twitter.com/its_SusmitaDey)
 
 You can checkout [Moody-website](https://susmita-dey.github.io/Moody/)
-## How to Locally Install Moody to your Browser
 
-#### Step 1
+## 📊 Features 
+It filters your homepage according to your mood. When you open a new tab after installing extension, it asks for your mood to help you perform better and care for your mental health. It has become one of the most important and biggest issue nowadays. Although it cannot be cured properly(stress, anxiety) but we're trying to solve it as much as we can by this extention. 
+
+---
+
+## 💻 How to Locally Install Moody to your Browser
+
+### 📍 Step 1
 Place Moody in a location that will be easy for you to find, ensuring that you remember exactly where you stored it as this will be needed later during the installation process. This process can also be used to install any other broswer extensions you have saved locally.
 
-#### Step 2
+### 📍 Step 2
 Open your broswer, this can be any browser you use the most, open **Settings**
 
 ![settings](https://user-images.githubusercontent.com/74776297/166063147-17eca9b6-c446-4c0c-856b-8c948826bc4d.png)
 
-#### Step 3
+### 📍 Step 3
 Locate the **Extensions** and click on it. Find where it says **Manage Extensions** and ensure that **Developer Mode** is enabled
 
 ![extensions](https://user-images.githubusercontent.com/74776297/166063436-b2c05d79-960f-43e8-ae99-3c246269ac62.png)
 
-#### Step 4
+### 📍 Step 4
 Locate where it says **load unpacked** and click on it. This will allow you to select the location where you stored Moody
 
 ![load unpacked](https://user-images.githubusercontent.com/74776297/166063822-ac830f3c-ad51-43e7-af45-b24bb6f2c96b.png)
 
-#### Step 5
+### 📍 Step 5
 If there are no errors and everything loads successfully, when prompted, click **OK** to install Moody successfully into your browser.
 
+---
 
-## NOTE:
+## 📌 NOTE:
 
 Another easier way of installing Moody to your web broswer is simply by locating **Extensions**, clicking on that and following the rest of the steps
 
 ---
 
-<!-- ## Download the extension from [here](). -->
+## 📚 Project Resources
 
-#### Check out the [YT video](https://youtu.be/jSUDUitqoOI) explaning the project.
+#### Check out the [Youtube video](https://youtu.be/jSUDUitqoOI) explaning the project.
 
 #### Check out the [Figma design file](https://www.figma.com/file/HthSH20cAg6WXbjLOW8af9/Moody---Chrome-Extension?node-id=0%3A1) used for making the UI/UX design of our extension
 
-#### 📸 Screenshot
+---
+
+## 📸 Screenshot 
 ![Moody](https://user-images.githubusercontent.com/79099734/191542470-a779e564-2d7d-403e-ab5c-8acbd24b5558.png)
 
+---
 
-<!-- ## For Chrome Users
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions?hl=en-US).
-2. Search for Moody in the Search Bar. 
-
-![search moody](https://user-images.githubusercontent.com/79099734/166102736-a5e6e683-b3ee-4c8a-a4e6-2be0e4f6b066.png)
-
-3. Select this one and open it up.
-4. Click on the `Add to Chrome` button.
-
-![button](https://user-images.githubusercontent.com/79099734/166102891-9b802875-f49f-44ca-8164-4eaa64a918d3.png)
-
-And you're all set! 
- -->
-<hr>
-
-## Contributing 👨‍💻 
+## 👨‍💻 Contributing 
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **greatly appreciated**.
 - Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+- Please feel to contribute to this project. See [**`Contribuing Guidelines`**](https://github.com/Susmita-Dey/Moody/blob/main/CONTRIBUTING.md) for ways to contribute. **Feel free to open an [`issue`](https://github.com/Susmita-Dey/Moody/issues/new/choose)**. Please adhere to this project's [**`Code Of Conduct`**](https://github.com/Susmita-Dey/Moody/blob/main/CODE_OF_CONDUCT.md). Remember, this project follows [**`Semantic Versioning`**](https://semver.org/) for the releases.
 
+---
 
-## License 🛡️ 
+## 🛡️ License 
 
 Moody is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Open Source Programs
  <a href="https://hacktoberfest.com/">
  <img width="1200" alt="Email Banners-Dark" src="https://user-images.githubusercontent.com/79099734/189589410-ca17afb8-5855-4316-918a-054f27594809.png">
  </a>
+
+---
 
 ## 😎 Project Maintainer
 
@@ -81,12 +91,19 @@ Moody is licensed under the MIT License - see the [LICENSE](LICENSE) file for de
   </tr>
 </table>
 
-## Thanks to all Contributors 💪 
+---
+
+## 💪 Thanks to all Contributors 
 
 Thanks a lot for spending your time helping Moody grow. Thanks a lot! Keep rocking 🍻
 
 [![Contributors](https://contrib.rocks/image?repo=Susmita-Dey/Moody)](https://github.com/Susmita-Dey/Moody/graphs/contributors)
 
-## Support 🙏 
+---
+
+## 🙏 Support  
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐. Also feel free to [sponsor](https://github.com/sponsors/Susmita-Dey) us.
+
+
+---
