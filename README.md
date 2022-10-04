@@ -1,6 +1,7 @@
 # Moody
 This is a chrome extension that will help you filter the home page of your Browser according to your mood!
 
+You can checkout [Moody-website](https://susmita-dey.github.io/Moody/)
 ## How to Locally Install Moody to your Browser
 
 #### Step 1
