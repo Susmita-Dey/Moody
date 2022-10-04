@@ -17,7 +17,7 @@ It filters your homepage according to your mood. When you open a new tab after i
 
 ---
 
-## 🧑‍💻 How to Locally Install Moody to your Browser
+## 💻 How to Locally Install Moody to your Browser
 
 ### 📍 Step 1
 Place Moody in a location that will be easy for you to find, ensuring that you remember exactly where you stored it as this will be needed later during the installation process. This process can also be used to install any other broswer extensions you have saved locally.
@@ -48,7 +48,6 @@ Another easier way of installing Moody to your web broswer is simply by locating
 
 ---
 
-<!-- ## Download the extension from [here](). -->
 ## 📚 Project Resources
 
 #### Check out the [Youtube video](https://youtu.be/jSUDUitqoOI) explaning the project.
