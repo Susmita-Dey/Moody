@@ -1,0 +1,123 @@
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #8eaad4;
+  color: white;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-5);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+/* main style */
+.logo{
+  display: block;
+  margin: 0 auto;
+ width: 150px;
+}
+.logo:hover{
+  filter: invert(10%);
+}
+.container{
+  margin: 50px auto;
+  padding: 3rem 6rem;
+  width: 70vw;
+  background-color: #EFCBCB;
+  border-radius: 20px;
+  color: rgb(84, 83, 83);
+
+}
+.container .title{
+  text-align: center;
+  margin-bottom: 2rem
+}
+/* mood grid */
+.allMoods{
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(170px, .5fr)) ;
+  grid-gap: 2rem;
+  justify-content: center;
+}
+.mood{
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgb(233, 232, 232);
+  text-align: center;
+}
+.mood:hover{
+  filter: invert(20%);
+}
+.mood .mood_title{
+  color: black;
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 500px) {
+  .container{
+    padding: 1rem;
+    width: 80vw;
+  }
+}
