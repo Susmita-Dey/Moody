@@ -82,7 +82,7 @@ p {
   filter: invert(10%);
 }
 .container{
-  margin: 50px auto;
+  margin: 0 auto;
   padding: 3rem 6rem;
   width: 70vw;
   background-color: #EFCBCB;
