@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      .loader{
+      .loader {
         width: 30px;
         height: 30px;
         border-radius: 50%;
@@ -15,9 +15,13 @@
         animation: spin 1s linear infinite;
       }
       @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
       @layer base {
         .card {
           width: 50%;
@@ -64,7 +68,10 @@
           <div
             class="container flex flex-row justify-center gap-4 my-10 font-['Pacifico']"
           >
-            <button type="button" class="p-3 bg-red-300 rounded text-center">
+            <button
+              type="button"
+              class="p-3 bg-red-300 rounded text-center border border-gray-500 hover:border-red-400 hover:bg-red-200"
+            >
               <a href="music.html">Music 🎶</a>
             </button>
             <button
@@ -73,10 +80,16 @@
             >
               Jokes 🤣
             </button>
-            <button type="button" class="p-3 bg-red-300 rounded text-center">
+            <button
+              type="button"
+              class="p-3 bg-red-300 rounded text-center border border-gray-500 hover:border-red-400 hover:bg-red-200"
+            >
               <a href="cooking.html">Cooking 🍽</a>
             </button>
-            <button type="button" class="p-3 bg-red-300 rounded text-center">
+            <button
+              type="button"
+              class="p-3 bg-red-300 rounded text-center border border-gray-500 hover:border-red-400 hover:bg-red-200"
+            >
               <a href="space.html">Space 🌎</a>
             </button>
           </div>
@@ -167,7 +180,7 @@
                 </div>
 
                 <!--Body-->
-                <div class="" id = "loader"></div>
+                <div class="" id="loader"></div>
                 <div id="joke" class="joke">// joke goes here</div>
 
                 <!--Footer-->
