@@ -6,6 +6,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
+      .loader{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid #000000;
+        border-top-color: rgb(255, 255, 255);
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
       @layer base {
         .card {
           width: 50%;
@@ -155,6 +167,7 @@
                 </div>
 
                 <!--Body-->
+                <div class="" id = "loader"></div>
                 <div id="joke" class="joke">// joke goes here</div>
 
                 <!--Footer-->

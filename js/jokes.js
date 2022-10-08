@@ -1,5 +1,6 @@
 console.log("Hello");
 
+const loader = document.getElementById("loader");
 const jokeEl = document.getElementById('joke');
 const get_joke = document.getElementById('get_joke');
 
@@ -9,12 +10,15 @@ generateJoke();
 
 
 async function generateJoke() {
+    jokeEl.innerHTML = ""
+    loader.classList.add("loader")
     const jokeRes = await fetch('https://icanhazdadjoke.com/', {
         headers: {
             'Accept': 'application/json'
         }
     });
     const joke = await jokeRes.json();
+    loader.classList.remove("loader")
     jokeEl.innerHTML = joke.joke;
 }
 

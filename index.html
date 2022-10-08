@@ -5,142 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Moody</title>
   </head>
-  <body class="bg-blue-500">
-    <section class="text-white body-font">
-      <h2 class="text-center mt-10 text-3xl font-bold">
-        What are you currently feeling?
-      </h2>
-      <div class="container px-16 py-8 mx-auto">
-        <div class="flex flex-wrap -m-4">
-          <div class="p-4 md:w-1/3">
-            <div
-            class="bg-green-500 h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
-            >
+  <body>
+    <!-- NavBar start -->
+    <nav>
+      <img src="assets/moody_logo.png" alt="moody-logo" class="logo" />
+    </nav>
+    <!-- NavBar end -->
+
+    <section>
+      <div class="container">
+        <h3 class="title">What’s your current mood?</h3>
+        <div class="allMoods">
+          <!-- 1 mood -->
+          <div class="mood">
             <a href="pages/happy.html">
-                <img
-                  class="lg:h-48 md:h-36 w-full object-contain object-center"
-                  src="assets/emojis/emoji-laughing.svg"
-                  alt="happy"
-                />
-                <!-- <div class="p-6"> -->
-                <h1
-                  class="text-center title-font text-lg font-medium text-white mt-1"
-                >
-                  Happy
-                </h1>
-                <!-- </div> -->
-                </a>
-              </div>
-            
+              <img
+                src="./assets/emojis/emoji-laughing.png"
+                width="96"
+                height="96"
+                alt="laughing"
+              />
+              <p class="mood_title">Happy</p>
+            </a>
           </div>
-          <div class="p-4 md:w-1/3">
-            <div
-            class="bg-red-500 h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
-            >
+          <!-- 1 mood end -->
+
+          <!-- 2 mood -->
+          <div class="mood">
             <a href="pages/angry.html">
-                <img
-                  class="lg:h-48 md:h-36 w-full object-contain object-center"
-                  src="assets/emojis/emoji-angry.svg"
-                  alt="angry"
-                />
-                <!-- <div class="p-6"> -->
-                <h1
-                  class="text-center title-font text-lg font-medium text-white mt-1"
-                >
-                  Angry
-                </h1>
-                <!-- </div> -->
-              </a>
-              </div>
-            
+              <img
+                src="./assets/emojis/emoji-angry.png"
+                alt="angry"
+                width="96"
+                height="96"
+              />
+              <p class="mood_title">Angry</p>
+            </a>
           </div>
-          <div class="p-4 md:w-1/3">
-            <div
-            class="bg-yellow-500 h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
-            >
+          <!-- 2 mood end -->
+          <!-- 3 mood -->
+          <div class="mood">
             <a href="pages/sad.html">
-                <img
-                  class="lg:h-48 md:h-36 w-full object-contain object-center"
-                  src="assets/emojis/emoji-frown.svg"
-                  alt="sad"
-                />
-                <!-- <div class="p-6"> -->
-                <h1
-                  class="text-center title-font text-lg font-medium text-white mt-1"
-                >
-                  Sad
-                </h1>
-                <!-- </div> -->
-              </a>
-              </div>
-            
+              <img
+                src="./assets/emojis/sad.png"
+                alt="angry"
+                width="96"
+                height="96"
+              />
+              <p class="mood_title">Sad</p>
+            </a>
           </div>
-          <div class="p-4 md:w-1/3">
-            <div
-            class="bg-blue-900 h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
-            >
+          <!-- 3 mood end -->
+           <!-- 4 mood -->
+           <div class="mood">
             <a href="pages/fear.html">
-                <img
-                  class="lg:h-48 md:h-36 w-full object-contain object-center"
-                  src="assets/emojis/emoji-fear.png"
-                  alt="fear"
-                />
-                <!-- <div class="p-6"> -->
-                <h1
-                  class="text-center title-font text-lg font-medium text-white mt-1"
-                >
-                  Fear
-                </h1>
-                <!-- </div> -->
-              </a>
-              </div>
-            
+              <img
+                src="./assets/emojis/emoji-fear.png"
+                alt="angry"
+                width="96"
+                height="96"
+              />
+              <p class="mood_title">Fear</p>
+            </a>
           </div>
-          <div class="p-4 md:w-1/3">
-            <div
-            class="bg-red-900 h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
-            >
+          <!-- 4 mood end -->
+          <!-- 5 mood -->
+          <div class="mood">
             <a href="pages/anxious.html">
-                <img
-                  class="lg:h-48 md:h-36 w-full object-contain object-center"
-                  src="assets/emojis/emoji-anxiety.png"
-                  alt="sad"
-                />
-                <!-- <div class="p-6"> -->
-                <h1
-                  class="text-center title-font text-lg font-medium text-white mt-1"
-                >
-                  Anxiety
-                </h1>
-                <!-- </div> -->
-              </a>
-              </div>
-            
+              <img
+                src="./assets/emojis/emoji-anxiety.png"
+                alt="angry"
+                width="96"
+                height="96"
+              />
+              <p class="mood_title">Anxiety</p>
+            </a>
           </div>
-          <div class="p-4 md:w-1/3">
-            <div
-            class="bg-black h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
-            >
+          <!-- 5 mood end -->
+           <!-- 6 mood -->
+           <div class="mood">
             <a href="pages/hate.html">
-                <img
-                  class="lg:h-48 md:h-36 w-full object-contain object-center"
-                  src="assets/emojis/emoji-hate.png"
-                  alt="sad"
-                />
-                <!-- <div class="p-6"> -->
-                <h1
-                  class="text-center title-font text-lg font-medium text-white mt-1"
-                >
-                  Hate
-                </h1>
-                <!-- </div> -->
-              </a>
-              </div>
-            
+              <img
+                src="./assets/emojis/emoji-hate.png"
+                alt="angry"
+                width="96"
+                height="96"
+              />
+              <p class="mood_title">Hate</p>
+            </a>
           </div>
+          <!-- 6 mood end -->
         </div>
       </div>
     </section>
