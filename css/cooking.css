@@ -129,3 +129,28 @@ form input {
   color: whitesmoke;
   font-style: italic;
 }
+
+.cooking{
+  cursor: pointer;
+  width: 40px;
+  height: 46.5px;
+  background-color: red;
+  border: none;
+}
+.loader {
+  width: 50px;
+  height: 50px;
+  margin: 5rem auto;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  border-top-color:#2F2FA2;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
