@@ -14,36 +14,34 @@
 ---
 ## 💥 How to Contribute
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Susmita-Dey/Moody-website/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Susmita-Dey/Moody/pulls)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Susmita-Dey/)
 
-- Take a look at the existing [Issues](https://github.com/Susmita-Dey/Moody-website/issues) or [create a new issue](https://github.com/Susmita-Dey/Moody-website/issues/new/choose)!
-- [Fork the Repo](https://github.com/Susmita-Dey/Moody-website/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
-- Create a **[Pull Request](https://github.com/Susmita-Dey/Moody-website/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
+- Take a look at the existing [Issues](https://github.com/Susmita-Dey/Moody/issues) or [create a new issue](https://github.com/Susmita-Dey/Moody/issues/new/choose)!
+- [Fork the Repo](https://github.com/Susmita-Dey/Moody/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
+- Create a **[Pull Request](https://github.com/Susmita-Dey/Moody/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
 
 ---
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 
-**1.** Start by making a Fork of the [**Moody-website**](https://github.com/Susmita-Dey/Moody-website) repository. Click on the <a href="https://github.com/Susmita-Dey/Moody-website/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
+**1.** Start by making a Fork of the [**Moody*](https://github.com/Susmita-Dey/Moody) repository. Click on the <a href="https://github.com/Susmita-Dey/Moody/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
 
 **2.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
 
 ```bash
-git clone https://github.com/<your-github-username>/Moody-website
-```
+git clone https://github.com/<your-github-username>/Moody
 
 **3.** Navigate to the newly created LinkFree project directory:
 
 ```bash
-cd Moody-website
-```
+cd Moody
 
 **4.** Set upstream command:
 
 ```bash
-git remote add upstream https://github.com/Susmita-Dey/all-round-calculator.git
+git remote add upstream https://github.com/Susmita-Dey/Moody.git
 ```
 
 **5.** Create a new branch:
