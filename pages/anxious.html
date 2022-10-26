@@ -5,9 +5,133 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .loader {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid #000000;
+        border-top-color: rgb(255, 255, 255);
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @layer base {
+        .card {
+          width: 50%;
+          max-width: 750px;
+        }
+
+        .card-body {
+          padding: 0 20px;
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="text/javascript"
+      async
+      src="https://platform.twitter.com/widgets.js"
+    ></script>
+    <script src="../js/sadQuotes.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <p>Are you anxious or tensed?</p>
+
+  <body class="bg-purple-500">
+    <section class="body-font">
+      <div class="container px-16 py-8 mx-auto">
+        <div class="flex flex-wrap flex-col m-4">
+          <div class="flex flex-wrap flex-col">
+            <h2
+              class="text-center lg:text-3xl md:text-2xl font-bold font-['Pacifico']"
+            >
+              Hey, there 👋 Are You anxious? 😞 <br />
+              Don't worry; because we're here for you.
+            </h2>
+            <h3 class="text-center mt-10 text-lg font-medium font-['Arvo']">
+              No need to worry .Do what you like 😊
+            </h3>
+          </div>
+          <div
+            class="container flex flex-row justify-center gap-4 my-10 font-['Pacifico']"
+          >
+            <button
+              type="button"
+              class="p-3 bg-red-300 rounded text-center border border-gray-500 hover:border-red-400 hover:bg-red-200"
+            >
+              <a href="music.html">Music 🎶</a>
+            </button>
+            
+            <button
+              type="button"
+              class="p-3 bg-red-300 rounded text-center border border-gray-500 hover:border-red-400 hover:bg-red-200"
+            >
+              <a href="cooking.html">Cooking 🍽</a>
+            </button>
+            <button
+              type="button"
+              class="p-3 bg-red-300 rounded text-center border border-gray-500 hover:border-red-400 hover:bg-red-200"
+            >
+              <a href="space.html">Space 🌎</a>
+            </button>
+          </div>
+
+          <div class="flex flex-wrap flex-col">
+            <div class="flex flex-wrap flex-col">
+              <h3 class="text-center text-lg font-medium font-['Arvo']">
+                A Quote for You 😊
+              </h3>
+            </div>
+            <div
+              class="md:mx-12 lg:mx-48 lg:mt-18 md:mt-12 text-white justify-center items-center card w-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+            >
+              <div class="card-body">
+                <blockquote class="blockquote mb-0 font-['Arvo']">
+                  <p>loading...</p>
+                  <footer class="blockquote-footer my-4 font-bold">
+                    - <cite title="Source Title"></cite>
+                  </footer>
+                </blockquote>
+                <a
+                  href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                  class="twitter-share-button font-['Pacifico']"
+                  data-size="large"
+                  data-text="Thank You for this awesome gift 🎁"
+                  data-via="its_SusmitaDey, @akebu6"
+                  data-hashtags="Moody"
+                  data-show-count="false"
+                  >Tweet</a
+                >
+              </div>
+              <div class="card-footer">
+                <button
+                  class="bg-transparent p-2 w-full rounded text-white font-['Pacifico']"
+                >
+                  New Quote
+                </button>
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-6 text-lg font-normal font-['Arvo']">
+            Have a good day
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="../js/modal.js"></script>
+    <script src="../js/jokes.js"></script>
   </body>
 </html>
