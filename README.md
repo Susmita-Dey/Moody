@@ -13,7 +13,7 @@ Moody is a Chrome extension that will help you to filter the home page of your C
 You can checkout [Moody](https://susmita-dey.github.io/Moody/)
 
 ## 📊 Features 
-It filters your homepage according to your mood. When you open a new tab after installing the extension, it asks you for your mood to help you perform better and care for your mental health. Mental health problem has become one of the most important and biggest issues nowadays. Although it cannot be cured so easily(stress, anxiety) but we're trying to help you to fight it as much as we can by the use of this extension. 
+t filters your homepage according to your mood. When you open a new tab after installing the extension, it asks you for your mood to help you perform better and care for your mental health. Mental health problem has become one of the most important and biggest issues nowadays. Although it cannot be cured so easily(stress, anxiety) but we're trying to help you to fight it as much as we can by this extension. 
 
 ---
 
